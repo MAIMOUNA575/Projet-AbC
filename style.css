@@ -14,7 +14,7 @@ body{
     height: 150px;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     gap: 250px;
     list-style: none;
 }
@@ -224,17 +224,15 @@ body{
     color: white;
     font-size: 35px;
     font-weight: 800;
-    margin-left: 75px;
 }
 .se p{
     color: white;
     font-size: 35px;
     font-weight: 800;
-    margin-left: 75px;
 }
 .son{
-    width: 80%;
-    height: 100px;
+    width: 50%;
+    height: 90px;
     background-color: white;
     border-radius: 60px;
     margin-top: 250px;
@@ -252,7 +250,7 @@ body{
 }
 .on .fa-solid{
     font-size: 40px;
-    margin-left: 90px;
+    margin-left: 50px;
     margin-top: 15px;
 }
 .rien{
@@ -260,8 +258,8 @@ body{
     height: 200px;
 }
 .son p{
-    font-size: 30px;
-    margin-left: 310px;
+    font-size: 25px;
+    margin-left: 250px;
     padding-top: 30px;
 }
 .grand{
@@ -292,9 +290,8 @@ body{
     height: 100px;
     background-color: white;
 }
-hr{
+.lesd hr{
     background-color: black;
-
     width: 15%;
     margin-top: -30px;
 }
@@ -307,4 +304,305 @@ hr{
     margin-top: 90px;
     font-size: 25px;
     font-weight: 600;
+}
+.seul{
+    width: 40%;
+    height:700px;
+    background-color: #B5A78F;
+    border-radius: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.coe{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    background-color: #D9D9D9;
+}
+.seul p{
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+.jsp{
+    width: 180px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: #E9CCCC;
+}
+.seul a{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+.roro{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.wx{
+   width: 40%;
+    height:700px;
+    background-color:#D6BE99;
+    border-radius: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.wx p{
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+.wx .aq{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    background-color: #D9D9D9;
+}
+.wx .as{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    background-color: #D9D9D9;
+}
+.wx .ad{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    background-color: #D9D9D9;
+}
+.wx .er{
+    width: 180px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: #E9CCCC;
+}
+
+
+@media screen and (max-width:1710px){
+    .entete{
+        gap: 0px;
+        justify-content: baseline;
+        align-items: baseline;
+    }
+    .header{
+        background-image: none;
+    }
+    .header h1{
+        color: black;
+        font-size: 60px;
+    }
+    .header h4{
+    color: rgb(92, 69, 69);
+    font-weight: 400;
+    font-size: 40px;
+    }
+    .header{
+        height: 350px;
+    }
+    .on .fa-solid {
+        margin-left: 30px;
+    }
+    .grand{
+    height: 1500px;
+    }
+}
+
+@media screen and (max-width:950px){
+    
+    .header h4{
+        position: relative;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .lesTrois{
+        display: block;
+    }
+    .un{
+        width: 60%;
+        margin-top: 20px;
+        margin-left: 160px;
+    }
+    .larg{
+        position: relative;
+        top: 800px;
+        gap: 90px;
+    }
+    .larg .deux{
+        width: 30%;
+        height: 80px;
+    }
+    .larg p{
+        font-size: 20px;
+    }
+    .deux .fa-solid{
+        font-size: 30px;
+        padding: 27px;
+    }
+    .flooter{
+        position: relative;
+        top: 800px;
+    }
+    .z .fa-brands{
+        font-size: 40px;
+    }
+    .flooter{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .entete a {
+        position: absolute;
+        top: 200px;
+        
+    }
+}
+@media screen and (max-width:1157px){
+    .son{
+        display: none;
+    }
+}
+@media screen and (max-width:1132px){
+    .cour{
+        display: block;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .second{
+        display: block;
+    }
+    .se{
+        width: 50%;
+        height: 400px;
+        margin-top: 850px;
+        margin-left: 100px;
+    }
+    .u{
+        width: 50%;
+        height: 400px;
+        margin-top: 30px;
+        margin-left: 100px;
+        }
+    .rien{
+        display: none;
+    }
+    .seul{
+        width: 30%;
+        height: 400px;
+    }
+    .coe{
+        width: 30%;
+    }
+    .seul p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    .entete img{
+        position: absolute;
+        left: 0;
+    }
+    .header h1{
+        position: relative;
+        color: black;
+        font-size: 30px;
+    }
+    .header h4{
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    .entete{
+        position: relative;
+        gap: 0px;
+        justify-content: baseline;
+        align-items: baseline;
+    }
+    .entete a{
+        position: relative;
+    }
+    .but{
+        position: absolute;
+        left: -120px;
+        top: -150px;
+        font-size: 10px;
+        border-radius: 20px;
+        padding: 15px;
+    }
+    .header{
+        height: 190px;
+    }
+    .lesTrois{
+        display: block;
+    }
+    .un{
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .larg{
+        position: relative;
+        top: 800px;
+        gap: 90px;
+    }
+    .larg .deux{
+        width: 50%;
+        height: 80px;
+    }
+    .larg p{
+        font-size: 12px;
+    }
+    .deux .fa-solid{
+        font-size: 30px;
+        padding: 27px;
+    }
+    .flooter{
+        position: relative;
+        top: 800px;
+    }
+    .z .fa-brands{
+        font-size: 20px;
+    }
+    .flooter{
+        height: 250px;
+    }
+
 }
